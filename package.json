@@ -1,0 +1,33 @@
+{
+  "name": "jincana",
+  "version": "0.0.1",
+  "description": "Server App for Facebook Messenger with Wit.ai bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release-major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "release-minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "release-patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesaraya/jincana.git"
+  },
+  "keywords": [
+    "chatbot",
+    "bot",
+    "wit",
+    "facebook",
+    "messenger",
+    "wit.ai"
+  ],
+  "author": "Charles Araya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlesaraya/jincana/issues"
+  },
+  "homepage": "https://github.com/charlesaraya/jincana#readme",
+  "devDependencies": {
+    "generate-changelog": "^1.0.2"
+  }
+}

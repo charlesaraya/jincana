@@ -22,7 +22,7 @@
     "messenger",
     "wit.ai"
   ],
-  "author": "Charles Araya",
+  "author": "Carlos Araya <charlesaraya@gmail.com> (http://charlesaraya.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/charlesaraya/jincana/issues"
@@ -30,5 +30,8 @@
   "homepage": "https://github.com/charlesaraya/jincana#readme",
   "devDependencies": {
     "generate-changelog": "^1.0.2"
+  },
+  "engines": {
+    "node": "6.2.2"
   }
 }
